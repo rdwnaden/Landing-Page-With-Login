@@ -1,0 +1,513 @@
+
+/*index*/
+
+body {
+    background-image: url("../img/bg.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/*login*/
+
+#login-card {
+    background: rgb(102, 100, 100);
+    opacity: 80%;
+    border-radius: 10px;
+    height: 380px;
+    width: 300px;
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#login-card-content {
+    padding: 12px 44px;
+}
+
+#login-card-title {
+    font-family: "Courier New", monospace;
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-size: 17pt;
+    text-align: center;
+}
+
+
+label {
+    font-family: "Raleway", sans-serif;
+    font-size: 11pt;
+}
+#login-forgot-pass {
+    color: white;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-size: 9pt;
+    margin-top: 10px;
+    text-align: right;
+}
+.login-form {
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form-content {
+    background: rgb(231, 228, 228);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+}
+
+.login-form-content:hover {
+    box-shadow: 0px 1px 15px rgb(67, 139, 233);
+}
+
+#login-submit-btn {
+    background: rgb(67, 139, 233);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-family: "Raleway SemiBold", sans-serif;
+    transition: 0.25s;
+    width: 100%;
+    height: 35px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#login-submit-btn:hover {
+    box-shadow: 0px 1px 15px #ffffff;
+}
+
+#login-register {
+    text-decoration: none;
+    font-family: "Raleway SemiBold", sans-serif;
+    color: white;
+    font-size: 8pt;
+    margin-top: 12px;
+    text-align: center;
+}
+
+/*register new*/
+
+#register-left {
+    background-color: grey;
+    float: left;
+    opacity: 90%;
+    border-radius: 4px;
+    height: 850px;
+    width: 500px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+#register-left-content {
+    padding: 12px 44px;
+}
+
+#register-left-tittle {
+    font-family: "Courier New", monospace;
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-size: 20pt;
+    text-align: center;
+}
+
+.register-underline-tittle {
+    height: 2px;
+    margin-top: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    background-color: white;
+}
+
+.form-reg {
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-reg-border {
+    background: white;
+    height: 1px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.form-reg-content {
+    background: grey;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+}
+
+#register-right {
+    background-color: grey;
+    float: right;
+    opacity: 90%;
+    border-radius: 4px;
+    height: 850px;
+    width: 680px;
+    margin-top: -752px;
+    margin-right: 30px;
+    margin-left: 480px;
+    margin-bottom: 30px;
+}
+
+#register-right-content {
+    padding: 12px 44px;
+}
+
+.register-textarea {
+    background-color: grey;
+    white-space: pre-line;
+    color: white;
+    height: 110px;
+    width: 600px;
+
+}
+
+.jenis-kelamin {
+    height: 30px;
+    width: 80px;
+    margin-bottom: 15px;
+}
+
+#reg-submit-btn {
+    background: red;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-family: "Raleway SemiBold", sans-serif;
+    transition: 0.25s;
+    width: 50%;
+    height: 35px;
+    margin-top: 5px;
+    margin-left: 900px;
+    margin-right: auto;
+}
+
+#reg-submit-btn:hover {
+    box-shadow: 0px 1px 15px #ffffff;
+}
+
+#reg-login {
+    text-decoration: none;
+    font-family: "Raleway SemiBold", sans-serif;
+    color: white;
+    font-size: 10pt;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: -692px;
+    margin-bottom: auto;
+    text-align: center;
+}
+
+/*index utama*/
+
+#card {
+    background: rgb(255, 255, 255);
+    opacity: 100%;
+    border-radius: 4px;
+    height: 870px;
+    width: 800px;
+    margin-top: 40px;
+    margin-bottom: 90px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#card-content {
+    padding: 40px 35px;
+}
+
+#sidebar {
+    background: grey;
+    float: left;
+    padding: 10px;
+    height: 530px;
+    width: 180px;
+    border-radius: 4px;
+}
+
+.sidebar-text {
+    background: rgb(67, 139, 233);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-family: "Raleway SemiBold", sans-serif;
+    font-size: 14px;
+    transition: 0.25s;
+    width: 100%;
+    height: 35px;
+    margin-top: auto;
+    margin-bottom: -10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sidebar-text:hover {
+    box-shadow: 0px 1px 15px #ffffff;
+}
+
+.sidebar-email {
+    color: white;
+    font-size: 10pt;
+    margin-left: 5px;
+    margin-top: -5px;
+}
+
+.line   {
+    background: white;
+    height: 1px;
+    width: 100%;
+    margin-top: -10px;
+}
+
+#name {
+    background: grey;
+    border-radius: 5px;
+    float: right;
+    padding: 5px;
+    height: 40px;
+    width: 510px;
+    font-family: "Raleway SemiBold", sans-serif;
+}
+
+.name-text  {
+    color: white;
+    font-size: 17pt;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+#main {
+    background: grey;
+    border-radius: 5px;
+    padding: 5px;
+    height: 720px;
+    width: 510px;
+    font-family: "Raleway SemiBold", sans-serif;
+    margin-left: 210px;
+    margin-top: 60px;
+}
+
+.ava {
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 120px;
+    height: 140px;
+    margin-bottom: 30px;
+}
+
+.logo {
+    margin-top: 50px;
+    margin-left: 150px;
+    width: 200px;
+    height: 200px;
+}
+
+.main-tittle {
+    color: white;
+    font-size: 17pt;
+    margin-left: 180px;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+
+.main-tittle-a {
+    color: white;
+    font-size: 17pt;
+    margin-left: 160px;
+    margin-top: auto;
+}
+
+.main-tittle-b {
+    color: white;
+    font-size: 12pt;
+    margin-left: 100px;
+    margin-top: auto;
+}
+
+#logout-btn {
+    background: red;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-family: "Raleway SemiBold", sans-serif;
+    transition: 0.25s;
+    width: 27%;
+    height: 35px;
+    margin-top: -220px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*biodata*/
+
+.biodata {
+    color: white;
+    font-size: 10pt;
+    margin-left: 20px;
+    white-space: pre-line;
+}
+
+.biodata-line {
+    background: white;
+    height: 1px;
+    width: 94%;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.vertikal ul    {
+    list-style-type: none;   
+    border-radius: 8px;
+    width: 180px;
+    height: 220px;
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway SemiBold", sans-serif;
+    font-size: 14px;
+    text-align: center;
+ 
+}
+
+.vertikal ul li a   {
+    display: block;
+    color: white;
+    margin: 6px 7px;
+    text-decoration: none;
+    padding: 7px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+ .vertikal ul li a:hover    {
+    background-color: rgb(67, 139, 233);
+    color:rgb(255, 255, 255);
+    border-radius: 4px;
+    
+}
+
+#slideshow {
+    max-width:1000px;
+    margin:auto;
+}
+
+#slideshow *{
+    box-sizing:border-box;
+}
+
+/* GAMBAR */
+#slideshow .gambar  {
+    position:relative;
+}
+
+#slideshow .gambar .mySlides {
+    position:relative;
+    display: none;
+}
+
+#slideshow .gambar .mySlides img    {
+    max-width:100%;
+}
+
+/* PREV-NEXT */
+#slideshow .prev,
+#slideshow .next {
+    position:absolute;
+    top:50%;
+    cursor:pointer;
+    width:auto;
+    margin-top:-22px;
+    padding:16px;
+    color:white;
+    font-weight:bold;
+    font-size:18px;
+    transition:0.6s ease;
+    border-radius:0 3px 3px 0;
+    user-select:none
+}
+
+#slideshow .prev:before {
+    content:"\276E"
+}
+
+#slideshow .next:before {
+    content:"\276F"}
+
+#slideshow .next    {
+    right:0;
+    border-radius:3px 0 0 3px
+}
+
+#slideshow .prev:hover,
+#slideshow .next:hover {
+    background-color:rgba(0,0,0,0.8)
+}
+
+/* NOMOR-CAPTION */
+#slideshow .number  {
+    color:#ffffff;
+    font-size:12px;
+    padding:10px;
+    position:absolute;
+    top:0
+}
+
+#slideshow .caption {
+    position:absolute;
+    bottom:0;color:#f2f2f2;
+    font-size:15px;
+    padding:10px;
+    width:100%;
+    text-align:center
+}
+
+/* TOMBOL */
+#slideshow .button  {
+    text-align:center;
+    padding:10px
+}
+
+#slideshow .button .dot {
+    cursor:pointer;
+    height:15px;
+    width:15px;
+    margin:0 2px;
+    background-color:#bbb;
+    border-radius:50%;
+    display:inline-block;
+    transition:background-color 0.6s ease
+}
+
+#slideshow .button .dot.active,
+#slideshow .button .dot:hover {
+    background-color: #717171;
+}
+
+/* FADING (ANIMASI) */
+#slideshow .gambar .fade {
+    -webkit-animation-name:fade;
+    -webkit-animation-duration:1.5s;
+    animation-name:fade;
+    animation-duration:1.5s}
+
+@-webkit-keyframes fade{
+  from{opacity:.4}
+  to{opacity:1}
+}
+@keyframes fade{
+  from {opacity:.4}
+  to {opacity:1}
+}
